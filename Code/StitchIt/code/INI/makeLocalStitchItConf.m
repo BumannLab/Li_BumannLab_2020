@@ -1,0 +1,24 @@
+function makeLocalStitchItConf
+% copy the default stitchitConf.ini to the current directory
+%
+% function makeLocalStitchItConf
+%
+% Inputs
+% None
+%
+% Outputs
+% None
+%
+% Rob Campbell - Basel 2014
+% Jiagui - 2020
+
+% find the ini file, here in folder \StitchIt\code\INI, change in folder
+fname = which('stitchitConf_DEFAULT.ini');
+
+if ~exist(fname)
+    error('Can not find %s',fname)
+else
+    copyfile(fname,'stitchitConf.ini')
+end
+
+
