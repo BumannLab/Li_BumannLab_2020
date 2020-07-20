@@ -1,7 +1,7 @@
 %% Script here is writen for distinguish the artifacts from YFP signals produced during YFP segmentation by SVM or thresholding.
 %% Before you start, please make sure you have 'Matlab deep learning tool kit' installed. Main code please see following links.
 %% Citation: https://ch.mathworks.com/help/deeplearning/ug/create-simple-deep-learning-network-for-classification.html
-
+%% Jiagui LI -- 2020
 
 close all;
 clear all;
